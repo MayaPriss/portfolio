@@ -53,7 +53,7 @@ try:
             mime="application/pdf"
         )
 except FileNotFoundError:
-    st.error("Resume file not found. Please make sure 'Saravanapriya_Resume.pdf' is in the same folder as your app.")
+    st.error("Resume file not found. Please make sure 'priya_resume.pdf' is in the same folder as your app.")
 
 # Footer
 st.markdown("---")
