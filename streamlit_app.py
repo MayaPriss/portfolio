@@ -42,7 +42,7 @@ st.write("""
 
 st.header("📝 My Resume")
 
-pdf_path = "/workspaces/portfolio/files/priya_resume.pdf"
+pdf_path = "files/priya_resume.pdf"
 
 try:
     with open(pdf_path, "rb") as f:
