@@ -27,7 +27,7 @@ with col2:
 
 # ---------- Header ----------
 st.title("👩‍💻 Saravanapriya")
-st.subheader("AI-Focused Software Engineer | Final-Year Student | Future Tech Leader")
+st.subheader("AI-Focused Software Engineer | Bachelor of Software Engineering (Honours) specializing in AI | Future Tech Leader")
 st.markdown("""
 Welcome to my digital portfolio. Here, you'll find a curated snapshot of my academic journey, technical expertise, and passion for building scalable, user-centric systems.
 """)
@@ -35,7 +35,7 @@ Welcome to my digital portfolio. Here, you'll find a curated snapshot of my acad
 # ---------- About Me ----------
 st.header("📖 About Me")
 st.write("""
-I'm currently pursuing Software Engineering with a specialization in Artificial Intelligence at Taylor's University. My experience spans frontend development, testing automation, and technical documentation—driven by a love for structured workflows and real-world impact.
+I've recently completed Degree in Software Engineering with a specialization in Artificial Intelligence at Taylor's University. My experience spans frontend development, testing automation, and technical documentation—driven by a love for structured workflows and real-world impact.
 
 I’ve interned at Caction Sdn. Bhd. and currently work part-time at M-TITANS SOFTWARE SDN. BHD., where I continue refining my skills in scalable system design and cross-functional collaboration.
 
