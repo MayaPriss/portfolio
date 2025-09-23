@@ -13,33 +13,93 @@ st.markdown("<h4 style='color:#5C4B3B;'>Choose a project to explore:</h4>", unsa
 
 # ---------- Project Selector ----------
 project = st.selectbox("", [
-    "POS System with Flutter & Firestore",
+    "The Grand Cinema (TGC)",
     "Testing Automation with Playwright",
     "Responsive UI Components",
     "Workflow Documentation & SDLC Mapping"
 ])
 
 # ---------- Project Details ----------
-if project == "POS System with Flutter & Firestore":
-    st.markdown("""
-    🔧 **Built a real-time inventory management system** using Flutter and Firestore.  
-    📦 Features include barcode scanning, dynamic filtering, and inventory updates.
-    """)
+if project == "The Grand Cinema (TGC)":
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col1:
+        st.image("assets/tgc.png", width=300)
+
+    with col2:
+        st.markdown("### The Grand Cinema (TGC)")
+        st.markdown("""
+        - Malay-Language Ticketing System (SPM Sains Komputer Project)
+        - Modular PHP Architecture  
+        - Secure User Authentication  
+        - Dynamic Seat Mapping
+        - Clean UI with Custom CSS
+        """)
+    with col3:
+        st.markdown("""
+        <a href="https://github.com/MayaPriss/tgc_cinema" target="_blank">
+            <div class="nav-button github">🚀 Click Me</div>
+        </a>
+        """, unsafe_allow_html=True)
+
 elif project == "Testing Automation with Playwright":
-    st.markdown("""
-    🧪 **Automated system testing** for web and mobile modules.  
-    🚀 Used Playwright and Firebase App Distribution for efficient QA cycles.
-    """)
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col1:
+        st.image("assets/playwright_testing.png", width=150)
+    with col2:
+        st.markdown("### Testing Automation with Playwright")
+        st.markdown("""
+        - Automated web and mobile QA workflows  
+        - Used Playwright for cross-browser testing  
+        - Integrated Firebase App Distribution  
+        - Reduced manual testing time by 60%  
+        - Logged test results with custom dashboards  
+        """)
+    with col3:
+        st.markdown("""
+        <a href="https://github.com/MayaPriss/playwright-automation" target="_blank">
+            <div class="nav-button github">🚀 Click Me</div>
+        </a>
+        """, unsafe_allow_html=True)
+
 elif project == "Responsive UI Components":
-    st.markdown("""
-    🎨 **Developed modular UI components** with Vue.js and Flutter.  
-    🧩 Focused on accessibility, responsiveness, and user experience.
-    """)
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col1:
+        st.image("assets/ui_components.png", width=150)
+    with col2:
+        st.markdown("### Responsive UI Components")
+        st.markdown("""
+        - Designed modular UI elements in Vue.js and Flutter  
+        - Focused on accessibility and responsiveness  
+        - Created reusable component libraries  
+        - Implemented dark/light theme toggles  
+        - Tested across mobile and desktop breakpoints  
+        """)
+    with col3:
+        st.markdown("""
+        <a href="https://github.com/MayaPriss/ui-components" target="_blank">
+            <div class="nav-button github">🚀 Click Me</div>
+        </a>
+        """, unsafe_allow_html=True)
+
 elif project == "Workflow Documentation & SDLC Mapping":
-    st.markdown("""
-    🗂️ **Mapped internship tasks to SDLC phases** for clarity and efficiency.  
-    📋 Created structured documentation for hardware/software infrastructure.
-    """)
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col1:
+        st.image("assets/sdlc_docs.png", width=150)
+    with col2:
+        st.markdown("### Workflow Documentation & SDLC Mapping")
+        st.markdown("""
+        - Mapped internship tasks to SDLC phases  
+        - Documented hardware/software infrastructure  
+        - Created visual diagrams for workflows  
+        - Standardized reporting formats  
+        - Improved onboarding with structured guides  
+        """)
+    with col3:
+        st.markdown("""
+        <a href="https://github.com/MayaPriss/sdlc-docs" target="_blank">
+            <div class="nav-button github">🚀 Click Me</div>
+        </a>
+        """, unsafe_allow_html=True)
 
 # ---------- Footer ----------
 st.markdown("---")
